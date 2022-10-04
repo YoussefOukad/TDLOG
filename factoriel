@@ -1,7 +1,8 @@
-def factoriel (n) :
-    R=1
-    for i in range(n):
-        R=R*(R+1)
-    return R
+from sre_constants import ASSERT
 
-print(factoriel(4))
+
+def factoriel (n) :
+    if n==0 :
+        return 1
+    else :
+        return n*(factoriel(n-1))
