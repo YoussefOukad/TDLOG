@@ -1,0 +1,7 @@
+def factoriel (n) :
+    R=1
+    for i in range(n):
+        R=R*(R+1)
+    return R
+
+print(factoriel(4))
