@@ -1,4 +1,4 @@
-from sre_constants import ASSERT
+
 
 
 def factoriel (n) :
