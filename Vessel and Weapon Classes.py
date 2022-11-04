@@ -80,7 +80,7 @@ Vaisseau3 = Vessel((0, 0, 0), 5, Arme1, 2)
 Vaisseau4 = Vessel((0, 0, 0), 7, Arme3, 3)
 Vaisseau5 = Vessel((0, 0, 0), 1, Arme1, 4)
 
-#trying different techniques
+#trying different technics
 
 print(Vaisseau4.vesseltype=='Destroyer')
 print(Vaisseau4.go_to(1,10,1))
